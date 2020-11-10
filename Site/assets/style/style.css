@@ -1,0 +1,187 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: #2f64c7;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1.5px solid #204894;
+    
+}
+
+
+p {
+    margin:0px;
+}
+
+#h1Titulo {
+    margin: 0px;
+    font-size: 19px;
+}
+
+#InfP {
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top: 1.4vh;
+    left: 25vw;
+    background-color: white;
+}
+
+#sectionProdutoEmVenda {
+
+    margin-bottom: 15px;
+    border: 1px solid #204894;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#formProdutos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.inputProduto {
+    padding: 2px;
+    border: 1px solid #1b1b1b;
+    border-radius: 1px;
+    margin:2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.buttonConcluir {
+    padding: 2px;
+    border: 1px solid #1b1b1b;
+    border-radius: 8px;
+    outline-color:#204894;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.buttonAcessar {
+    padding: 2px;
+    border: 1px solid #1b1b1b;
+    border-radius: 8px;
+    outline-color:#204894;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+
+#InfAdicionarProduto {
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top: 1.4vh;
+    left: 25vw;
+    background-color: white;
+}
+
+#sectionAdicionarProduto {
+    border: 1px solid  #204894;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+#formAdicionar  {
+    margin-top: 15px;
+}
+
+.inputLabelArea {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#divchecbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.checkboxValues {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 2px;
+    flex-wrap: wrap;
+}
+
+.inputFormAdicionar {
+    border: 1px solid  #1b1b1b;
+    border-radius: 10px;
+    outline-color: #204894;
+    padding: 2px;
+}
+
+.labelFormAdicionar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+#buttonArea {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#buttonArea button {
+    padding: 3px;
+    border: 1px solid #1b1b1b;
+    border-radius: 10px;
+    outline-color: #204894;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+#preço {
+    width: 195px;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 8vh;
+    margin-top: 13vh;
+    background-color: #2f64c7;
+    border: 1px solid #204894;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+@media(min-width:560px) {
+    .inputProduto {
+        width: 400px;
+    }
+}
